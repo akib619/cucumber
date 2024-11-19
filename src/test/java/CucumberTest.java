@@ -37,7 +37,6 @@ public class CucumberTest {
     @Given("I am on the homepage")
     public void onHomePage() {
         driver.get("https://store.steampowered.com/");
-
     }
 
     @When("Navigate to the About Page")
